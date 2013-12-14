@@ -4,6 +4,7 @@ Created on Aug 15, 2011
 @author: tomkent
 
 made my chet corcos to test internet speeds
+changed by sam corcos to take recording every 10 seconds
 '''
 
 import urllib2
@@ -141,7 +142,7 @@ if __name__ == '__main__':
             f.write(getTime() + ', error' + "\n")
             f.close()
 
-        sleep(3600) # every hour, test the internet speed
+        sleep(10) # every 10 seconds, test the internet speed
 
     
     
